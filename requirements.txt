@@ -1,0 +1,14 @@
+torch>=2.4.0
+transformers>=4.46.0
+peft>=0.13.0
+accelerate>=1.0.0
+bitsandbytes>=0.44.0
+datasets>=2.19.0
+rouge-score>=0.1.2
+anthropic>=0.40.0
+fastapi>=0.115.0
+uvicorn>=0.31.0
+pydantic>=2.9.0
+
+# unsloth is installed inline in train_qlora.ipynb with a Colab-specific
+# pinned command -- see the notebook's first code cell.
